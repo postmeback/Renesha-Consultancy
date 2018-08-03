@@ -1,0 +1,36 @@
+.bounds {
+  background-color: #ddd;
+  height: 300px;
+  width: 30%;
+}
+
+/* .sec1 {
+  background:white;
+  color: black;
+}
+
+.sec2 {
+  background:white;
+  color: black;
+}
+
+.sec3 {
+
+} */
+
+.sec1,
+.sec2,
+.sec3 {
+  padding-top: 20px;
+  text-align: center;
+  background:white;
+  color: black;
+}
+
+.content {
+  float: left;
+  height: 100%;
+  margin: 0px;
+  width: 60% !important;
+  min-width: 60% !important;
+}
