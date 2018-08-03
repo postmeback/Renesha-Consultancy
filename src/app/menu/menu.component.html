@@ -1,0 +1,21 @@
+<div class="Menus">
+
+<button mat-button [matMenuTriggerFor]= " Home ">Home</button>
+<button mat-button [matMenuTriggerFor] = "AboutUs">About Us</button>
+<button mat-button [matMenuTriggerFor] = "Services">Services</button>
+<button mat-button = "Jobs">Jobs</button>
+<button mat-button = "Blog">Blog</button>
+<button mat-button = "Contact">Contact</button>
+
+<mat-menu #AboutUs="matMenu">
+  <button mat-menu-item ="CompanyProfile">Company Profile</button>
+  <button mat-menu-item ="ManagementTeam">Management Team</button>
+</mat-menu>
+
+<mat-menu #Services="matMenu">
+  <button mat-menu-item>Recruitment & Selection</button>
+  <button mat-menu-item>Training & Development</button>
+  <button mat-menu-item>Consulting</button>
+</mat-menu>
+
+</div>
